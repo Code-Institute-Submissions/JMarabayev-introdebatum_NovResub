@@ -1,0 +1,13 @@
+body{
+    background:url(../images/kai-pilger-Ef6iL87-vOA-unsplash.jpg);
+    color:whitesmoke
+}
+a:visited{
+    color: turquoise;
+}
+a:hover{
+    color: rgb(248, 191, 86);
+}
+a:active{
+    color: whitesmoke;
+}
