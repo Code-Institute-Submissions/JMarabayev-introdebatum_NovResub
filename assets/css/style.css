@@ -22,11 +22,22 @@ body{
 }
 #about{
     border-radius:25px;
-    height: 40vh;
+    height: auto;
     width: 40vw;
     background-color: rgba(3, 91, 255, 0.5);
     padding: 10px 30px;
     color:aliceblue;
+    overflow: hidden;
+}
+
+.criteria{
+    height:500px;
+    width:500px;
+    position: relative;
+    left:40px;
+    top: auto;
+    border-style: outset;
+    display:inline-block;
 }
 .criteria img{
     height:300px;
