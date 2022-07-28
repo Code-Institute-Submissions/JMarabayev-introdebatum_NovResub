@@ -38,10 +38,14 @@ body{
     top: auto;
     border-style: outset;
     display:inline-block;
+    vertical-align: top;
 }
 .criteria img{
     height:300px;
     width : 300px;
+    position: absolute;
+    bottom:0;
+    left:100px;
 }
 #footer{
     background-color:rgba(0, 155, 95, 0.8)
