@@ -8,26 +8,31 @@ a:active{
     color: whitesmoke;
 }
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: large;
+    background-color: beige;
+    color: #00184f;
     
 }
 #home{
-    color:aliceblue;
+    color:beige;
     height:70vh;
     width:100vw;
-    background-color:red;
+    background-image:url(../images/kseniya-lapteva-AKk5wFIyzpE-unsplash.jpg);
     text-align:center;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    font-size: xx-large;
     
 }
 #about{
     border-radius:25px;
     height: auto;
-    width: 40vw;
-    background-color: rgba(3, 91, 255, 0.5);
+    width: 100vw;
     padding: 10px 30px;
-    color:aliceblue;
     overflow: hidden;
+    text-align: center;
 }
 
 .criteria{
@@ -36,7 +41,6 @@ body{
     position: relative;
     left:40px;
     top: auto;
-    border-style: outset;
     display:inline-block;
     vertical-align: top;
     text-align: center;

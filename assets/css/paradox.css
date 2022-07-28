@@ -1,6 +1,7 @@
 body{
-    background: url(../images/kupono-kuwamura-LzgK6IMoSZM-unsplash.jpg) center no-repeat;
-    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: beige;
 }
 #paradox-head{
     background:url(../images/jeremy-bishop-G9i_plbfDgk-unsplash.jpg) no-repeat center;
