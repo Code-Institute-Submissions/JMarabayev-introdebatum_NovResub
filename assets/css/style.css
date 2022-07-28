@@ -39,6 +39,7 @@ body{
     border-style: outset;
     display:inline-block;
     vertical-align: top;
+    text-align: center;
 }
 .criteria img{
     height:300px;
