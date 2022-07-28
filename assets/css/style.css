@@ -1,0 +1,37 @@
+a:visited{
+    color: turquoise;
+}
+a:hover{
+    color: rgb(248, 191, 86);
+}
+a:active{
+    color: whitesmoke;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    
+}
+#home{
+    color:aliceblue;
+    height:70vh;
+    width:100vw;
+    background-color:red;
+    text-align:center;
+    
+}
+#about{
+    border-radius:25px;
+    height: 40vh;
+    width: 40vw;
+    background-color: rgba(3, 91, 255, 0.5);
+    padding: 10px 30px;
+    color:aliceblue;
+}
+.criteria img{
+    height:300px;
+    width : 300px;
+}
+#footer{
+    background-color:rgba(0, 155, 95, 0.8)
+}
