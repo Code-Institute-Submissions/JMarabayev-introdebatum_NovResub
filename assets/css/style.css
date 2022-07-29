@@ -35,6 +35,9 @@ body{
     overflow: hidden;
     text-align: center;
 }
+#topics{
+    text-align: center;
+}
 
 .criteria{
     height:500px;
