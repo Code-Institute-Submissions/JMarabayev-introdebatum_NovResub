@@ -13,6 +13,7 @@ body{
     background-color: beige;
     color: #00184f;
     
+    
 }
 #home{
     color:beige;
@@ -22,7 +23,7 @@ body{
     text-align:center;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 200px;
+    padding-top: 220px;
     font-size: xx-large;
     
 }

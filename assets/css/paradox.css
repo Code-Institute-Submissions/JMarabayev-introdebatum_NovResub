@@ -2,6 +2,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     background-color: beige;
+    color:#00184f;
 }
 #paradox-head{
     background:url(../images/jeremy-bishop-G9i_plbfDgk-unsplash.jpg) no-repeat center;
@@ -20,7 +21,7 @@ article{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
     text-align: center;
-    padding:10vh 25vw;
+    
     
 }
 div{
