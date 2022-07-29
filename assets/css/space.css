@@ -1,11 +1,11 @@
 a:visited{
-    color: turquoise;
+    color: rgb(2, 140, 126);
 }
 a:hover{
-    color: rgb(248, 191, 86);
+    color: rgb(158, 102, 0);
 }
 a:active{
-    color: whitesmoke;
+    color: rgb(0, 74, 21);
 }
 body{
     font-family: 'Times New Roman', Times, serif;
@@ -56,4 +56,10 @@ li span{
     right: 0;
     width: 100%;
     height: 100%;   /*Adapted from W3Schools https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
+}
+#top{
+    position: fixed;
+    bottom:0;
+    right:0;
+    background-color:beige ;
 }

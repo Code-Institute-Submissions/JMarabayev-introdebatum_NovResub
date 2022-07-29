@@ -1,11 +1,11 @@
 a:visited{
-    color: turquoise;
+    color: rgb(2, 140, 126);
 }
 a:hover{
-    color: rgb(248, 191, 86);
+    color: rgb(158, 102, 0);
 }
 a:active{
-    color: whitesmoke;
+    color: rgb(0, 74, 21);
 }
 body{
     font-family: 'Times New Roman', Times, serif;
