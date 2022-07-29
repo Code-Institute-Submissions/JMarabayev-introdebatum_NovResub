@@ -57,5 +57,11 @@ body{
     left:100px;
 }
 #footer{
-    background-color:rgba(0, 155, 95, 0.8)
+    background-color:rgba(0, 155, 95, 0.8);
+    text-align: right;
+}
+#footer p{
+    color:beige;
+    text-align: right;
+    font-size: small;
 }
