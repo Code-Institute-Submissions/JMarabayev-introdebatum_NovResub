@@ -4,7 +4,7 @@ Introdebatum is an online static platform for social gatherings and indiciduals 
 
 Introdebatum aims to help people engage in these conversations by giving them a slight push through providing some relevant material and asking follow up questions to which there could be a series of answers. It is an ongoing project where fellow people would be able to add the topics they found to be interesting to discuss to systemically grow the platform, which is the step I hope to achieve in the future. Through collaboration and common effort Introdebatum can become a Wikipedia for debates which can be used by both the social and the education sectors. 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Page](/assets/images/AboutTopics.png)
 
 ## Features 
 
@@ -17,36 +17,44 @@ In this section, you should go over the different parts of your project, and des
   - Featured on all four pages, the navigation bar makes it easy to jump from section to section. On the home page the navigation bar can take you to the "About" section with brief instructions and introduction to the page; the "topics section which has a selection of topics to explore for your debates; the "contact" section where anyone can fill out a form to further improve the website or to contact the developer (me). Each of the child pages (Topics) has a "Home" button on top left to take the user back to the home page. Each child page also has a "Back to Top" button to help them navigate back to the top where they can go down the list of topics once again or opt to go back to homepage using the nav bar at the top.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](/workspace/introdebatum/assets/images/navbar.png)
-![Back to Top](/workspace/introdebatum/assets/images/navbar.png)
+![Nav Bar](/assets/images/navbar.png)
+![Back to Top](/assets/images/back%20to%20top.png)
+![Home on topic pages](/assets/images/hometopic.png)
 
 - __The landing page__
 
   - The lander arrives at a textured background displaying the name of the website and its slogan. 
   - This section introduces the user to Introdebatum with a minimalistic greeting.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](/assets/images/Home.png)
 
 - __About Section__
 
   - The about section gives the user a bit more information on how to use the platform and aims to inspire them to explore. 
   - This user would get accustomed to the format and layout of the website and navigate to where they see fit in order to achieve their desired goal. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![About Section](/assets/images/about.png)
+
+-__Topic Section__
+
+- The topic section gives the user a choice of topics to explore with a brief introduction and an image to support their choice
+- The title is a hyperlink to a separate page with subtopics and infomation on each subtopic
+
+![Topics Section](/assets/images/topics.png)
 
 - __Contact Section__
 
   - This section would allow users to write a custom message and leave their contact information in order to give feedback to the developer. 
   - The responses from this section would be monitored and reviewed and best suggestions would be implemented into the website to allow the user to interact with the platform better. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Contact Section](/assets/images/Contact.png)
 
 - __The Footer__ 
 
   - The footer contains information saying that Introdebatum does not own any of the information provided and the rights to the information are reserved with their original author. 
   - The footer also gives the developer's initials for future recognition.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](/assets/images/footer.png)
 
 - __Topic Sections__
 
@@ -54,7 +62,12 @@ In this section, you should go over the different parts of your project, and des
   - Below each video there is some written supporting information which summarises the topic in a paragraph and provides a hyperlink that opens a new tab with the original article in case the user wants more information on the topic.
   - Below each paragraph there is a series of three questions that aim to spark a debate about a given topic, wether to use these questions or to resort to their own is at the discretion of the user. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Topic Space 1](/assets/images/example1spacevid.png)
+![Topic Space 2](/assets/images/example1space.png)
+![Topic Tech 1](/assets/images/egtechvid.png)
+![Topic Tech 2](/assets/images/egtech.png)
+![Topic Paradox 1](/assets/images/egparavid.png)
+![Topic Paradox 2](/assets/images/egpara.png)
 
 ### Features Left to Implement
 
@@ -75,7 +88,7 @@ The contact form is also correct in a sense that it allows for input. Given that
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjmarabayev.github.io%2Fintrodebatum%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjmarabayev.github.io%2Fintrodebatum%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjmarabayev.github.io%2Fintrodebatum%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
 
