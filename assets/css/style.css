@@ -1,3 +1,4 @@
+
 a:visited{
     color: rgb(2, 140, 126);
 }
@@ -30,8 +31,7 @@ body{
 #about{
     border-radius:25px;
     height: auto;
-    width: 100vw;
-    padding: 10px 30px;
+    width: 98vw;
     overflow: hidden;
     text-align: center;
 }
