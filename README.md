@@ -1,108 +1,110 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Introdebatum!
 
-Welcome Zhangir (John) Marabayev,
+Introdebatum is an online static platform for social gatherings and indiciduals wishing to challenge themselves to explore different concepts and debate topics based on their interests. The reason why I chose to go down this path is due to the fact that I am an introverted individual and usually find it difficult to initiate deep conversations with my peers, as most gatherings ususally result in series of small talks, but when I do succeed to interest someone in a deep conversation and a debate about the stars, technology the future and anything else that tantilises the mind, I end up having an amazing evening and walk away happy that I managed to engage in an interaction that meant something to me and broadened my understanding of the world around me.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Introdebatum aims to help people engage in these conversations by giving them a slight push through providing some relevant material and asking follow up questions to which there could be a series of answers. It is an ongoing project where fellow people would be able to add the topics they found to be interesting to discuss to systemically grow the platform, which is the step I hope to achieve in the future. Through collaboration and common effort Introdebatum can become a Wikipedia for debates which can be used by both the social and the education sectors. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
-## Gitpod Reminders
+## Features 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-`python3 -m http.server`
+### Existing Features
 
-A blue button should appear to click: _Make Public_,
+- __Navigation Bar__
 
-Another blue button should appear to click: _Open Browser_.
+  - Featured on all four pages, the navigation bar makes it easy to jump from section to section. On the home page the navigation bar can take you to the "About" section with brief instructions and introduction to the page; the "topics section which has a selection of topics to explore for your debates; the "contact" section where anyone can fill out a form to further improve the website or to contact the developer (me). Each of the child pages (Topics) has a "Home" button on top left to take the user back to the home page. Each child page also has a "Back to Top" button to help them navigate back to the top where they can go down the list of topics once again or opt to go back to homepage using the nav bar at the top.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Nav Bar](/workspace/introdebatum/assets/images/navbar.png)
+![Back to Top](/workspace/introdebatum/assets/images/navbar.png)
 
-A blue button should appear to click: _Make Public_,
+- __The landing page__
 
-Another blue button should appear to click: _Open Browser_.
+  - The lander arrives at a textured background displaying the name of the website and its slogan. 
+  - This section introduces the user to Introdebatum with a minimalistic greeting.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-To log into the Heroku toolbelt CLI:
+- __About Section__
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - The about section gives the user a bit more information on how to use the platform and aims to inspire them to explore. 
+  - This user would get accustomed to the format and layout of the website and navigate to where they see fit in order to achieve their desired goal. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-------
+- __Contact Section__
 
-## Release History
+  - This section would allow users to write a custom message and leave their contact information in order to give feedback to the developer. 
+  - The responses from this section would be monitored and reviewed and best suggestions would be implemented into the website to allow the user to interact with the platform better. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- __The Footer__ 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+  - The footer contains information saying that Introdebatum does not own any of the information provided and the rights to the information are reserved with their original author. 
+  - The footer also gives the developer's initials for future recognition.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- __Topic Sections__
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+  - Each topic has several subtopics which are accompanied by fullscreen YouTube videos embedded into the page. 
+  - Below each video there is some written supporting information which summarises the topic in a paragraph and provides a hyperlink that opens a new tab with the original article in case the user wants more information on the topic.
+  - Below each paragraph there is a series of three questions that aim to spark a debate about a given topic, wether to use these questions or to resort to their own is at the discretion of the user. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Features Left to Implement
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- Interactive design with animations.
+- Allow for user interaction through adding their own topics and questions (Similar to Wikipedia).
+- Random Topic selector similar to Google.com "I'm feeling Lucky" in which the user presses the button and a random topic and subtopic are displayed.
+- Live chatrooms with people discussing a topic of their choice.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Testing 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Through the completion of the project all features were tested using the temporary server upload with the command (python3 -m http.server). All hyperlinks work as intended and take the user to the correct section. Back to top button works, the user however may choose to scoll a little but up in order to reveal the nav bar for the respective page. All images are of the apropriate size for their intended purpose.
+Upon resizing the browser window the text shifts to fit the width of the scren and side scrolling is not necessary. The topics are done as inline-block and thus shift from horizontal to a vertical alignment which facilitates easy scrolling. As mentioned in the unfixed bugs section the home page has some dead space and an option to scroll sideways, I was unable to reduce the width of the page to fix this. All Youtube embedded videos work as intended and are responsive to screen size. Since it is an embedded Youtube video, the controls are inherit. Autoplay is disabled for user experience.
+The contact form is also correct in a sense that it allows for input. Given that I do not yet have a data dump to post the responses into I have used the one from the Coders Coffeehouse project from Code Institute HTML and CSS Essentials Curriculum.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Validator Testing 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjmarabayev.github.io%2Fintrodebatum%2F)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjmarabayev.github.io%2Fintrodebatum%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Unfixed Bugs
 
-------
+One feature that I was unable to fix was the scale of the webpage in which there is some dead space to the right of the home page, as well as the homepage being a little askew on some mobile devices (iphone 7, samsung galaxy s21). I tried many approaches such as encasing the whole page in a div, or playing with width and media settings, but none yielded effective results. 
 
-## FAQ about the uptime script
+## Deployment
 
-**Why have you added this script?**
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-**How will this affect me?**
+The live link can be found here - https://jmarabayev.github.io/introdebatum/ 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Credits 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
-**So….?**
+You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Content 
 
-**Can I opt out?**
+- The text for the subtopic was taken from external sources which are hyperlinked under each paragraph.
+- Instructions on how to implement a responsive iframe were taken from https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Media
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+- The photos used on the home and sign up page are from This Open Source site unsplash.com
+- The images used for the gallery page were taken from this other open source site unsplash.com
