@@ -58,8 +58,8 @@ body{
     text-align: center;
 }
 .criteria img{
-    height:300px;
-    width : 300px;
+    height:65%;
+    width : 65%;
     position: absolute;
     bottom:0;
     left:100px;
