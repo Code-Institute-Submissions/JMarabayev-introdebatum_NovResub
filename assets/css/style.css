@@ -1,4 +1,9 @@
-
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    }
 nav>a{
     color: beige;
 }
@@ -25,23 +30,22 @@ body{
 }
 #home{
     color:beige;
-    height:70vh;
+    height:40vh;
     width:100%;
     background-image:url(../images/kseniya-lapteva-AKk5wFIyzpE-unsplash.jpg);
     text-align:center;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 120px;
-    font-size: x-large;
+    padding-top: 50px;
+    font-size: large;
    
     
 }
 #about-section{
-    border-radius:25px;
     height: auto;
-    width: 98%;
-    overflow: hidden;
+    width: 100%;
     text-align: center;
+    padding: 20px,0;
 }
 #topics{
     text-align: center;
@@ -50,13 +54,18 @@ body{
 .criteria{
     height:500px;
     width:500px;
-    position: relative;
-    left:40px;
-    top: auto;
+    position:relative;
     display:inline-block;
     vertical-align: top;
     text-align: center;
+    padding: 20px;
+    @media screen (max-width: 525px) {
+        height:30px;
+        width: 30px;px;
+    }
+    
 }
+
 .criteria img{
     height:65%;
     width : 65%;
@@ -64,6 +73,10 @@ body{
     bottom:0;
     left:100px;
 }
+#contact{
+    padding-left: 20px;
+}
+
 #footer{
     background-color:rgba(0, 155, 95, 0.8);
     text-align: right;
@@ -72,6 +85,7 @@ body{
     color:beige;
     text-align: right;
     font-size: small;
+    padding-right: 10px;
 }
 input{
     max-width: 80vw;
