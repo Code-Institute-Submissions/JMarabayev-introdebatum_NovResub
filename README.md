@@ -16,8 +16,9 @@ In this section, you should go over the different parts of your project, and des
 
   - Featured on all four pages, the navigation bar makes it easy to jump from section to section. On the home page the navigation bar can take you to the "About" section with brief instructions and introduction to the page; the "topics section which has a selection of topics to explore for your debates; the "contact" section where anyone can fill out a form to further improve the website or to contact the developer (me). Each of the child pages (Topics) has a "Home" button on top left to take the user back to the home page. Each child page also has a "Back to Top" button to help them navigate back to the top where they can go down the list of topics once again or opt to go back to homepage using the nav bar at the top.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - !!! Updated Navbar to match the style of the page.
 
-![Nav Bar](/assets/images/navbar.png)
+![Nav Bar](/assets/images/newnav.png)
 ![Back to Top](/assets/images/back%20to%20top.png)
 ![Home on topic pages](/assets/images/hometopic.png)
 
@@ -25,8 +26,11 @@ In this section, you should go over the different parts of your project, and des
 
   - The lander arrives at a textured background displaying the name of the website and its slogan. 
   - This section introduces the user to Introdebatum with a minimalistic greeting.
+  - !!! Updated the height adjustment based on size of screen using themedia querie
+  - __Top Image fails to show the response that I have recorded with IPhone SE (smallest IPhone), so screenshot demonstrates it better__
 
 ![Landing Page](/assets/images/Home.png)
+![Responsive Homepage](/assets/images/Responsive%20homepage.png)
 
 - __About Section__
 
@@ -39,8 +43,10 @@ In this section, you should go over the different parts of your project, and des
 
 - The topic section gives the user a choice of topics to explore with a brief introduction and an image to support their choice
 - The title is a hyperlink to a separate page with subtopics and infomation on each subtopic
+- !!! Made the divs responsive to the screen size by removing images on smaller screen to reduce clutter
 
 ![Topics Section](/assets/images/topics.png)
+![Responsive Topics](/assets/images/responsive%20topics.png)
 
 - __Contact Section__
 
@@ -53,8 +59,9 @@ In this section, you should go over the different parts of your project, and des
 
   - The footer contains information saying that Introdebatum does not own any of the information provided and the rights to the information are reserved with their original author. 
   - The footer also gives the developer's initials for future recognition.
+  - Added the W3C CSS validator icon to prove the page passed validation
 
-![Footer](/assets/images/footer.png)
+![Footer](/assets/images/footer%20New.png)
 
 - __Topic Sections__
 
@@ -79,14 +86,14 @@ In this section, you should go over the different parts of your project, and des
 ## Testing 
 
 Through the completion of the project all features were tested using the temporary server upload with the command (python3 -m http.server). All hyperlinks work as intended and take the user to the correct section. Back to top button works, the user however may choose to scoll a little but up in order to reveal the nav bar for the respective page. All images are of the apropriate size for their intended purpose.
-Upon resizing the browser window the text shifts to fit the width of the scren and side scrolling is not necessary. The topics are done as inline-block and thus shift from horizontal to a vertical alignment which facilitates easy scrolling. As mentioned in the unfixed bugs section the home page has some dead space and an option to scroll sideways, I was unable to reduce the width of the page to fix this. All Youtube embedded videos work as intended and are responsive to screen size. Since it is an embedded Youtube video, the controls are inherit. Autoplay is disabled for user experience.
+Upon resizing the browser window the text shifts to fit the width of the scren and side scrolling is not necessary. The topics are done as inline-block and thus shift from horizontal to a vertical alignment which facilitates easy scrolling. As mentioned in the unfixed bugs section the home page has some dead space and an option to scroll sideways !!! FIXED !!!. All Youtube embedded videos work as intended and are responsive to screen size. Since it is an embedded Youtube video, the controls are inherit. Autoplay is disabled for user experience.
 The contact form is also correct in a sense that it allows for input. Given that I do not yet have a data dump to post the responses into I have used the one from the Coders Coffeehouse project from Code Institute HTML and CSS Essentials Curriculum.
 
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjmarabayev.github.io%2Fintrodebatum%2F)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjmarabayev.github.io%2Fintrodebatum%2F) [W3C validator screenshot](//assets/images/NEW%20HTML%20VALID.png)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjmarabayev.github.io%2Fintrodebatum%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - Lighthouse Report 
@@ -95,7 +102,7 @@ The contact form is also correct in a sense that it allows for input. Given that
 
 ### Unfixed Bugs
 
-One feature that I was unable to fix was the scale of the webpage in which there is some dead space to the right of the home page, as well as the homepage being a little askew on some mobile devices (iphone 7, samsung galaxy s21). I tried many approaches such as encasing the whole page in a div, or playing with width and media settings, but none yielded effective results. 
+No unfixed bugs to report at the moment.
 
 ## Deployment
 
@@ -124,3 +131,5 @@ You can break the credits section up into Content and Media, depending on what y
 
 - The photos used on the home and sign up page are from This Open Source site unsplash.com
 - The images used for the gallery page were taken from this other open source site unsplash.com
+- Youtube videos were embedded from their respective links and belong to their original creators
+- Articles are referenced in text with a hyperlink
