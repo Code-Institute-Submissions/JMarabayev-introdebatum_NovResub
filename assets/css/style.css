@@ -50,7 +50,6 @@ body{
 #topics{
     text-align: center;
 }
-
 .criteria{
     height:500px;
     width:500px;
@@ -59,13 +58,17 @@ body{
     vertical-align: top;
     text-align: center;
     padding: 20px;
-    @media screen (max-width: 525px) {
-        height:30px;
-        width: 30px;px;
-    }
     
 }
-
+@media screen and (max-width:525px) {
+    .criteria{
+        height:auto;
+        width:auto;
+    }
+    .criteria img{
+       visibility:hidden;
+    }
+}
 .criteria img{
     height:65%;
     width : 65%;
