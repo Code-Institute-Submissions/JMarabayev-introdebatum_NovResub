@@ -4,7 +4,7 @@ Introdebatum is an online static platform for social gatherings and indiciduals 
 
 Introdebatum aims to help people engage in these conversations by giving them a slight push through providing some relevant material and asking follow up questions to which there could be a series of answers. It is an ongoing project where fellow people would be able to add the topics they found to be interesting to discuss to systemically grow the platform, which is the step I hope to achieve in the future. Through collaboration and common effort Introdebatum can become a Wikipedia for debates which can be used by both the social and the education sectors. 
 
-![Responsive Design](/assets/images/response.png)
+![Responsive Design](/assets/images/newresponsive.png)
 
 ## Features 
 
