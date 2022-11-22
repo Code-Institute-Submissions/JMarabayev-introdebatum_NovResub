@@ -68,6 +68,9 @@ body{
     .criteria img{
        visibility:hidden;
     }
+    #home{
+        height: fit-content;
+    }
 }
 .criteria img{
     height:65%;
